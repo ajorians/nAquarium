@@ -45,11 +45,6 @@ void put_pixel16( SDL_Surface *surface, int x, int y, Uint16 pixel )
    *(Uint16 *)p = pixel;
 }
 
-double abs(double d)
-{
-   return (d < 0.) ? (-d) : d;
-}
-
 void Fish::UpdateDisplay()
 {
    m_nNextAdjust--;
